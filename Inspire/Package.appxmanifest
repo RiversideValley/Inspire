@@ -35,10 +35,13 @@
         DisplayName="Inspire"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="Inspire"
+        Description="A powerful and helpful integrated development environment which enhances your experience has a developer, with support for all of your favourite languages. Powered by Esmerelda AI, it can detect what you&apos;re aiming to write or give you helpful tips on how to improve, for free."
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape"/>
+          <uap:Rotation Preference="landscapeFlipped"/></uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>
