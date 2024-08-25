@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="c432110f-b112-4a3f-815b-7b8369d0c49b"
+    Name="Riverside.Inspire"
     Publisher="CN=notla"
-    Version="1.0.0.0" />
+    Version="0.0.1.0" />
 
   <mp:PhoneIdentity PhoneProductId="c432110f-b112-4a3f-815b-7b8369d0c49b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Inspire</DisplayName>
-    <PublisherDisplayName>notla</PublisherDisplayName>
+    <PublisherDisplayName>Riverside Valley</PublisherDisplayName>
     <Logo>Assets\AppTiles\StoreLogo.png</Logo>
   </Properties>
 
@@ -35,7 +35,7 @@
         DisplayName="Inspire"
         Square150x150Logo="Assets\AppTiles\Square150x150Logo.png"
         Square44x44Logo="Assets\AppTiles\Square44x44Logo.png"
-        Description="Inspire"
+        Description="A powerful and helpful integrated development environment which enhances your experience has a developer, with support for all of your favourite languages. Powered by Esmerelda AI, it can detect what you&apos;re aiming to write or give you helpful tips on how to improve, for free."
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\AppTiles\Wide310x150Logo.png" Square71x71Logo="Assets\AppTiles\SmallTile.png" Square310x310Logo="Assets\AppTiles\LargeTile.png"/>
         <uap:SplashScreen Image="Assets\AppTiles\SplashScreen.png" />
